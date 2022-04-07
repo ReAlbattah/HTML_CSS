@@ -1,0 +1,52 @@
+body{
+    background-image: url("background-image.png");
+}
+
+
+.div-1{
+    /* section 1 */
+    padding-right: 50px;
+    margin: 20px;
+    height: 100px;
+
+}
+
+.div-2{
+    /* section 2 -table */
+    padding: 10px;
+    margin-top: 70px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .div-3{
+      /* section 3 */
+    height: 400px;
+    text-align: left;
+
+}
+
+.center {
+    text-align: center;
+
+  }
+  
+  .back{ /* button */
+      background-color: orange;
+      color: aliceblue;
+  }
+
+  form {
+    display: inline-block;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
